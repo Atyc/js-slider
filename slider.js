@@ -20,7 +20,7 @@ var divWidth=JSwidth*totalSlides;
 $("#JSlider").css("width",divWidth);
 
 //create nav div
-JSparent.after(function(){
+$("#JSlider").after(function(){
 	return "<div id='JSliderNavigation'></div>";
 })
 $("#JSliderNavigation").css({"width":JSwidth});

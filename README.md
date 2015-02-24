@@ -15,8 +15,10 @@ Add arrows over image
 
 ToDo:
 Add more vars for config
+Add navigation switch
+Add fading?
 
 Bugs:
-Right arrow stays with right edge when window is resized
+Right arrow stays with right edge when window is resized. Find another way to position the arrows
 
 ##### &copy; http://www.octav.co.uk
