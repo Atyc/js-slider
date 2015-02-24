@@ -1,9 +1,10 @@
 #JSlider {
-padding:0;
-margin: 0;
-height:100%;
-width:100%;
-display:block;
+	padding:0;
+	margin: 0;
+	height:100%;
+	width:100%;
+	display:block;
+	z-index:1;
 }
 
 #JSlider div {
@@ -16,11 +17,23 @@ display:block;
 }
 
 #JSliderNavigation .navItem{
-margin-right:10px;
-cursor: pointer;
+	margin-right:10px;
+	cursor: pointer;
 }
 
 #JSliderNavigation .current {
 	font-weight: bold;
 	color:red;
+}
+
+.JSoverlayPrev, .JSoverlayNext {
+	position:absolute;
+	font-size:80px;
+	color:#000000;
+}
+
+#JSarrowRight, #JSarrowLeft {
+	zoom: 1;
+	filter: alpha(opacity=0);
+	opacity: 0;
 }
