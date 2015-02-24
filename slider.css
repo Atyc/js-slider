@@ -7,10 +7,20 @@ display:block;
 }
 
 #JSlider div {
-posistion:relative;
+}
+
+#JSliderNavigation {
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 #JSliderNavigation .navItem{
 margin-right:10px;
+cursor: pointer;
 }
 
+#JSliderNavigation .current {
+	font-weight: bold;
+	color:red;
+}
